@@ -1,0 +1,174 @@
+Delivered-To: pramodh1234.v@gmail.com
+Received: by 2002:a2e:9b8d:0:b0:3a1:1cf6:4669 with SMTP id z13csp2480737lji;
+        Mon, 28 Sep 2026 04:59:09 -0700 (PDT)
+X-Received: by 2002:a05:622a:15d3:b0:533:3a14:6a2e with SMTP id d75a77b69052e-5333a147167mr81205921cf.17.1790596749737;
+        Mon, 28 Sep 2026 04:59:09 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1790596749; cv=none;
+        d=google.com; s=arc-20260327;
+        b=biLtyz5LzwbDn5cNIFPiI/jqZ2AbnauqKcJ6XEQl3pBpmV7oClVbevUPMHhsqT0Myi
+         H/YyuPsanyXm+BWuBqk+cwKZsHpavC/GRDS+qRHvcZ5Yiebdv7f1qUWBPeey7iFR2C4L
+         l6vlLC8/Nn3V3l2DaAdmX5Wm5KA/MTl6RIcKbSAQxSWDocdG9vRGJFJ2iGdhakjyvC27
+         Ze86IQP+t9kN88fHi/VWSzpqKS+ebBVfnO7T07nc8KzzjwQXBk5LGzBPuiQFQn31yqwv
+         KYOl6CB+ctPAGVq9LwLf1JMhd+iz83jl1e07i35a6Y9umdm04DBkZw4F/fFRBpBO4qbv
+         zq4w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=mime-version:feedback-id:list-unsubscribe:list-unsubscribe-post
+         :message-id:subject:reply-to:from:to:date:dkim-signature
+         :dkim-signature;
+        bh=+iAip4eTEVvmkt9xy+ccCsU8mU+PAT/5CW2iofZPopE=;
+        fh=oco/esRaLPeOG+p5NLYwV7aSO3c04fm+ZDFMzR+PTY4=;
+        b=OlaOBLP6Uo5IWZDz+p4xWz0qSnhK82CxRceM/IfxrbncuBqebsGN3pVXLzUcbu7n2H
+         BbJYxaEar7Rf4zmabEDvCNi1603mFvVu6XVLa6axQAOa3bEtGRfQHNxoWdRYwhUKehXM
+         jtZQ7+7bilUPci3OSaEOOhHzQ1AMpSWBUv9nOM/HErNYiVlSH5KDOL6xos5k9J7euIG4
+         GTjzsLePldpJGHmJO5f9BTa677F1qG41RaA6QodXIjRthgNH1Kl9n6PX0wzuTF7YVDSl
+         3bv0rjCwdvR3FC0lCuYqE7eGO/wopHEI/N8Oe312lPJRHVwRs87wf4FChSgPVOtAie1M
+         0CJg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@ubi.bank.in header.s=nc2048 header.b=Ezm8QPC5;
+       dkim=pass header.i=@env.etransmail.com header.s=fnc header.b=RwzJQ209;
+       spf=pass (google.com: domain of campaign-unionbankofindiacee-177515-2766001-1480155-i-e=gmail.com@ncdelivery.ubi.bank.in designates 202.162.239.16 as permitted sender) smtp.mailfrom="campaign-unionbankofindiacee-177515-2766001-1480155-i-e=gmail.com@ncdelivery.ubi.bank.in";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=ubi.bank.in
+Return-Path: <campaign-unionbankofindiacee-177515-2766001-1480155-i-e=gmail.com@ncdelivery.ubi.bank.in>
+Received: from pmta2.in-23916.ncm14.com (pmta2.in-23916.ncm14.com. [202.162.239.16])
+        by mx.google.com with ESMTPS id d75a77b69052e-53322422580si78760351cf.316.2026.09.28.04.59.09
+        for <pramodh1234.v@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 28 Sep 2026 04:59:09 -0700 (PDT)
+Received-SPF: pass (google.com: domain of campaign-unionbankofindiacee-177515-2766001-1480155-i-e=gmail.com@ncdelivery.ubi.bank.in designates 202.162.239.16 as permitted sender) client-ip=202.162.239.16;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@ubi.bank.in header.s=nc2048 header.b=Ezm8QPC5;
+       dkim=pass header.i=@env.etransmail.com header.s=fnc header.b=RwzJQ209;
+       spf=pass (google.com: domain of campaign-unionbankofindiacee-177515-2766001-1480155-i-e=gmail.com@ncdelivery.ubi.bank.in designates 202.162.239.16 as permitted sender) smtp.mailfrom="campaign-unionbankofindiacee-177515-2766001-1480155-i-e=gmail.com@ncdelivery.ubi.bank.in";
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=ubi.bank.in
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=ubi.bank.in; s=nc2048;
+	h=content-type:mime-version:feedback-id:list-unsubscribe:list-unsubscribe-post:
+	 message-id:subject:reply-to:from:to:from:to:subject;
+	bh=+iAip4eTEVvmkt9xy+ccCsU8mU+PAT/5CW2iofZPopE=;
+	b=Ezm8QPC5UFQFDdOh5t8NhUusRdiX7OMfJnNoIbSF6G4yph2P2BKOW0UHgHIrchnfvplUoZaTtvZFP
+	 TbBk9xzOUoj2u3R3s563F3TOeZAQB0R9KS8i7rDIByoNAhTydA6XrLR1bOfgpcwRTSWmUFi4froxga
+	 07ogvsjhoBNjmMjDmwlftKiGtEp7+uOigc+MJbVDM+REZ45oZco2dieFAh037npYzQKcwee52mqSYV
+	 MzJzkXXeneV3pu3QO0viYsxo1VQaGgsbfWVu7A/fZucEcLuvnVZzXr/lRTmNh/mBLtdx070HTKG4mY
+	 FF1gWVi5r5GweCxeM30/GD3kXjn8dIg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=env.etransmail.com; s=fnc;
+	h=content-type:mime-version:feedback-id:list-unsubscribe:list-unsubscribe-post:
+	 message-id:subject:reply-to:from:to:from:to:subject;
+	bh=+iAip4eTEVvmkt9xy+ccCsU8mU+PAT/5CW2iofZPopE=;
+	b=RwzJQ209SaJGyK2By2eKTjeMfhi4/McSHXXrdl4V2/SmVeK+ZNpxIJpJLQMB8FKzO14tIltH/lM2P
+	 YfPmJQVdu7AL1KgO8lF8DKUloXSQ4Bg5vxkMdRC+QsWFyetc44RFJYok0nbgoUGIbmJSUG0MOkVHfE
+	 yQ9tU7QkRKl/Qrms=
+Date: Mon, 28 Sep 2026 17:29:09 +0530
+To: pramodh1234.v@gmail.com
+From: =?UTF-8?B?VW5pb24gQmFuayBvZiBJbmRpYQ==?= <noreplyubi@ubi.bank.in>
+Reply-To: =?UTF-8?B?VW5pb24gQmFuayBvZiBJbmRpYQ==?= <noreplyubi@ubi.bank.in>
+Subject: Customer Advisory - Availability of Normal Banking Services
+Message-ID: <77307751841480155@ncdelivery.ubi.bank.in>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://unsub-cee.netcorecloud.net/vtrack?ul=CAMOCFRRVEUCRBQRVF4NUFECBQpRS0J5UQ9VUAlKBVxeGRpFAU0H&ml=CwAADlVUUEUDRFVRAgVWSA==&sl=e0t5ezAYKHdPayk3SVYOXVdYGUwHDBpbVwxfFwwKGgNPVRoJ&clientid=177515&c=000>, <mailto:uns-unionbankofindiacee-177515-2766001-1480155-i-1480155@ncdelivery.ubi.bank.in?subject=Unsubscribe>
+X-Mailer: NetcoreCloud Mailer
+Feedback-ID: 2766:177515:20260928163521:nczc
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_4606f0703773303e410311edf59a3941"
+
+
+
+
+--b1_4606f0703773303e410311edf59a3941
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+
+
+
+
+
+प्रिय ग्राहक,
+
+यूनियन बैंक ऑफ इंडिया की सभी शाखाओं में सामान्य बैंकिंग सेवाएँ उपलब्ध हैं। हमारी 24x7 डिजिटल सेवाएँ, जिनमें इंटरनेट बैंकिंग, मोबाइल बैंकिंग, यूपीआई, एटीएम तथा बीसी/बैंक मित्र केंद्र भी उपलब्ध हैं।
+हमारे साथ बैंकिंग करने के लिए धन्यवाद। - यूनियन बैंक ऑफ इंडिया
+  
+
+Dear Customer, normal banking services are available at all Union Bank of India branches. Our 24x7 digital channels, including Internet Banking, Mobile Banking, UPI, ATMs and BC/Bank Mitra Points, remain available. Thank you for banking with us. - Union Bank of India
+ 
+
+
+
+
+
+
+
+
+
+
+--Click Here to unsubscribe from this newsletter.
+
+
+--b1_4606f0703773303e410311edf59a3941
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html><html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en"><head><title></title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!--[if mso]>
+<xml><w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word"><w:DontUseAdvancedTypographyReadingMail/></w:WordDocument>
+<o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/>
+</o:OfficeDocumentSettings></xml>
+<![endif]--><style>
+*{box-sizing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inherit!important;text-decoration:inherit!important}#MessageViewBody a{color:inherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hide table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_block img+div{display:none}sub,sup{font-size:75%;line-height:0} @media (max-width:768px){.desktop_hide table.icons-outer{display:inline-table!important}.row-content{width:100%!important}.stack
+.column{width:100%!important;display:block}.mobile_hide{min-height:0;max-height:0;max-width:0;display:none;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{display:table!important;max-height:none!important}}
+</style>
+<!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]--></head><body class="body" style="margin:0;padding:0;-webkit-text-size-adjust:none;text-size-adjust:none;background-color:#fff"><img border="0" src="https://elink.ubi.bank.in/vtrack?clientid=177515&ul=
+CAMOCFRRVEUCRBQRVF4NUFECBQpRS0J5UQ9VUAlKBVxeGRpFAU0H&ml=CwAADlVUUEUDRFQf&sl=e0t5RCwqHWp+bBgGWVoMXxdGVVBLB1VXXUxdVxlUGgNPVQ==&c=0000" ><table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff">
+<tbody><tr><td><table class="row row-1" align="center" 
+width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;color:#000;width:830px;margin:0 auto" width="830"><tbody>
+<tr><td class="column column-1" width="100%" 
+style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top;width:100%"><table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr>
+<td class="col-pad" style="padding-bottom:5px;padding-top:5px"><table class="text_block block-1" width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr>
+<td 
+class="pad"><div style="font-family:Tahoma,sans-serif"><div class style="font-size:12px; 
+font-family:'Trebuchet MS','Lucida Grande','Lucida Sans Unicode','Lucida Sans',Tahoma,sans-serif;mso-line-height-alt:14.399999999999999px;color:#555;line-height:1.2"><p style="margin:0;font-size:16px;mso-line-height-alt:19.2px">
+<span style="word-break: break-word; font-size: 16px;">&#2346;&#2381;&#2352;&#2367;&#2351; &#2327;&#2381;&#2352;&#2366;&#2361;&#2325;,</span></p><p style="margin:0;font-size:16px;mso-line-height-alt:19.2px">
+<span style="word-break: break-word; font-size: 16px;">
+&#2351;&#2370;&#2344;&#2367;&#2351;&#2344; &#2348;&#2376;&#2306;&#2325; &#2321;&#2347; &#2311;&#2306;&#2337;&#2367;&#2351;&#2366; &#2325;&#2368; &#2360;&#2349;&#2368; &#2358;&#2366;&#2326;&#2366;&#2323;&#2306; &#2350;&#2375;&#2306; &#2360;&#2366;&#2350;&#2366;&#2344;&#2381;&#2351; &#2348;&#2376;&#2306;&#2325;&#2367;&#2306;&#2327; &#2360;&#2375;&#2357;&#2366;&#2319;&#2305; &#2313;&#2346;&#2354;&#2348;&#2381;&#2343; &#2361;&#2376;&#2306;&#2404; &#2361;&#2350;&#2366;&#2352;&#2368;&nbsp;24x7&nbsp;&#2337;&#2367;&#2332;&#2367;&#2335;&#2354;
+&#2360;&#2375;&#2357;&#2366;&#2319;&#2305;,&nbsp;&#2332;&#2367;&#2344;&#2350;&#2375;&#2306; &#2311;&#2306;&#2335;&#2352;&#2344;&#2375;&#2335; &#2348;&#2376;&#2306;&#2325;&#2367;&#2306;&#2327;,&nbsp;&#2350;&#2379;&#2348;&#2366;&#2311;&#2354; &#2348;&#2376;&#2306;&#2325;&#2367;&#2306;&#2327;,&nbsp;&#2351;&#2370;&#2346;&#2368;&#2310;&#2312;,&nbsp;&#2319;&#2335;&#2368;&#2319;&#2350; &#2340;&#2341;&#2366; &#2348;&#2368;&#2360;&#2368;/&#2348;&#2376;&#2306;&#2325; &#2350;&#2367;&#2340;&#2381;&#2352; &#2325;&#2375;&#2306;&#2342;&#2381;&#2352; &#2349;&#2368; &#2313;&#2346;&#2354;&#2348;&#2381;&#2343;
+&#2361;&#2376;&#2306;&#2404;</span>
+</p><p style="margin:0;font-size:16px;mso-line-height-alt:19.2px"><span style="word-break: break-word; font-size: 16px;">&#2361;&#2350;&#2366;&#2352;&#2375; &#2360;&#2366;&#2341; &#2348;&#2376;&#2306;&#2325;&#2367;&#2306;&#2327; &#2325;&#2352;&#2344;&#2375; &#2325;&#2375; &#2354;&#2367;&#2319; &#2343;&#2344;&#2381;&#2351;&#2357;&#2366;&#2342;&#2404; - &#2351;&#2370;&#2344;&#2367;&#2351;&#2344; &#2348;&#2376;&#2306;&#2325; &#2321;&#2347; &#2311;&#2306;&#2337;&#2367;&#2351;&#2366;</span>
+</p><p 
+style="margin:0;font-size:16px;mso-line-height-alt:14.399999999999999px" aria-hidden="true">&nbsp;</p><p style="margin:0;font-size:16px;mso-line-height-alt:14.399999999999999px" aria-hidden="true">&nbsp;</p>
+<p style="margin:0;font-size:16px;mso-line-height-alt:19.2px">
+<span style="word-break: break-word; font-size: 16px;">Dear Customer, normal banking services are available at all Union Bank of India branches. Our 24x7 digital channels, including Internet Banking, Mobile Banking, UPI, ATMs and BC/Bank Mitra Points, remain available. Thank you for banking with us. - Union Bank of India</span>
+</p><p style="margin:0;font-size:16px;text-align:justify;mso-line-height-alt:14.399999999999999px">&nbsp;</p></div></div></td></tr></table><table 
+class="image_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0"><tr>
+<td class="pad" style="width:100%" align="left"><div style="max-width:410px"><img src="https://d1l8l3rp33cdzs.cloudfront.net/images/unionbankofindiacee/p2.png" style="display:block;height:auto;border:0;width:100%" width="410" alt="unionbankofindia logo" title="unionbankofindia logo" height="auto"></div>
+</td></tr></table><table 
+class="icons_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;text-align:center;line-height:0"><tr>
+<td class="pad" style="vertical-align:middle;color:#000; 
+font-family:inherit;font-size:14px;font-weight:400" align="center"><table class="icons-outer" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;display:inline-table"><tr>
+<td 
+style="vertical-align:middle;text-align:center;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px"><a href="https://elink.ubi.bank.in/vtrack?clientid=177515&ul=
+CAMOCFRRVEUCRBQRVF4NUFECBQpRS0J5UQ9VUAlKBVxeGRpFAU0H&ml=CwAADlVUUEUDRFVRAgZUSA==&sl=e0t1RCwqHWp+bBgGWVoMXxdGVVBLB1VXXUxdVxlUGgNPVQ==&pp=0&ga=utm_source%3DNetcore%26utm_campaign%3DStrike%2BDeferred%2BCommunication%2B28092026%2B%26utm_medium%3DEmail%26utm_term%3DCampaign&fl=UUNCSBZeThZETxNNXF0RQFhURVgIS1dWW01BVwwLCFFSCw1QXkJCUEs=&ext="  target="_blank" title="" style="text-decoration: none;"><img class="icon" src="https://d1l8l3rp33cdzs.cloudfront.net/images/unionbankofindiacee/editor_images/af9f0d08-98f3-4e8e-9701-997b90c3c41d.png" alt="instagram" height="auto" width="160" align="center" style="display:block;height:auto;margin:0
+auto;border:0">
+</a>
+</td><td style="vertical-align:middle;text-align:center;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px"><a href="https://elink.ubi.bank.in/vtrack?clientid=177515&ul=
+CAMOCFRRVEUCRBQRVF4NUFECBQpRS0J5UQ9VUAlKBVxeGRpFAU0H&ml=CwAADlVUUEUDRFVRAgZVSA==&sl=e0t1RCwqHWp+bBgGWVoMXxdGVVBLB1VXXUxdVxlUGgNPVQ==&pp=0&ga=utm_source%3DNetcore%26utm_campaign%3DStrike%2BDeferred%2BCommunication%2B28092026%2B%26utm_medium%3DEmail%26utm_term%3DCampaign&fl=UUNCSBZeThZETxNNU1IBUVtcWFJLBltUGTdaUAoKJFJdDilfeV9SWAU=&ext="  target="_blank" title="" style="text-decoration: none;"><img class="icon" src="https://d1l8l3rp33cdzs.cloudfront.net/images/unionbankofindiacee/editor_images/67d8d145-9c9d-46e6-bb61-89f581685b49.png" alt="facebook" height="auto" width="167.2258064516129" align="center" 
+style="display:block;height:auto;margin:0 auto;border:0">
+</a></td><td style="vertical-align:middle;text-align:center;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px"><a href="https://elink.ubi.bank.in/vtrack?clientid=177515&ul=
+CAMOCFRRVEUCRBQRVF4NUFECBQpRS0J5UQ9VUAlKBVxeGRpFAU0H&ml=CwAADlVUUEUDRFVRAgZaSA==&sl=e0t1RCwqHWp+bBgGWVoMXxdGVVBLB1VXXUxdVxlUGgNPVQ==&pp=0&ga=utm_source%3DNetcore%26utm_campaign%3DStrike%2BDeferred%2BCommunication%2B28092026%2B%26utm_medium%3DEmail%26utm_term%3DCampaign&fl=UUNCSBZeThZLFgcMWBw3WlBcWXsEC19tQQdRTRY=&ext="  target="_blank" title="" style="text-decoration: none;"><img class="icon" src="https://d1l8l3rp33cdzs.cloudfront.net/images/unionbankofindiacee/editor_images/c2527e90-258e-4ba7-af20-31ad193ef9d2.png" alt="Twitter" height="auto" width="147" 
+align="center" style="display:block;height:auto;margin:0 auto;border:0">
+</a></td><td style="vertical-align:middle;text-align:center;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px"><a href="https://elink.ubi.bank.in/vtrack?clientid=177515&ul=
+CAMOCFRRVEUCRBQRVF4NUFECBQpRS0J5UQ9VUAlKBVxeGRpFAU0H&ml=CwAADlVUUEUDRFVRAgZbSA==&sl=e0t1RCwqHWp+bBgGWVoMXxdGVVBLB1VXXUxdVxlUGgNPVQ==&pp=0&ga=utm_source%3DNetcore%26utm_campaign%3DStrike%2BDeferred%2BCommunication%2B28092026%2B%26utm_medium%3DEmail%26utm_term%3DCampaign&fl=UUNCSBZeThZETxNNWVoMX1xXXldLBltUGQFbVBUFCEocEAhQX19UUApfClJdDFUIAEw=&ext="  target="_blank" title="" style="text-decoration: none;"><img class="icon" src="https://d1l8l3rp33cdzs.cloudfront.net/images/unionbankofindiacee/editor_images/94727b2f-bb1c-4840-85bd-e0c1217ebb37.png" alt="linkedin" height="auto" 
+width="149.33333333333334" align="center" style="display:block;height:auto;margin:0 auto;border:0">
+</a></td><td style="vertical-align:middle;text-align:center;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px"><a href="https://elink.ubi.bank.in/vtrack?clientid=177515&ul=
+CAMOCFRRVEUCRBQRVF4NUFECBQpRS0J5UQ9VUAlKBVxeGRpFAU0H&ml=CwAADlVUUEUDRFVRAgVSSA==&sl=e0t1RCwqHWp+bBgGWVoMXxdGVVBLB1VXXUxdVxlUGgNPVQ==&pp=0&ga=utm_source%3DNetcore%26utm_campaign%3DStrike%2BDeferred%2BCommunication%2B28092026%2B%26utm_medium%3DEmail%26utm_term%3DCampaign&fl=UUNCSBZeThZETxNNQVsQUVhXRBcLAEAWdhdaUAoKBFJdDg9XQ0VX&ext="  target="_blank" title="" style="text-decoration: none;"><img class="icon" src="https://d1l8l3rp33cdzs.cloudfront.net/images/unionbankofindiacee/editor_images/277bfa8c-0e85-401a-a953-3c31f395c3b2.png" 
+alt="threads" height="auto" width="149.33333333333334" align="center" style="display:block;height:auto;margin:0 auto;border:0">
+</a></td><td style="vertical-align:middle;text-align:center;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px"><a href="https://elink.ubi.bank.in/vtrack?clientid=177515&ul=
+CAMOCFRRVEUCRBQRVF4NUFECBQpRS0J5UQ9VUAlKBVxeGRpFAU0H&ml=CwAADlVUUEUDRFVRAgVTSA==&sl=e0t1RCwqHWp+bBgGWVoMXxdGVVBLB1VXXUxdVxlUGgNPVQ==&pp=0&ga=utm_source%3DNetcore%26utm_campaign%3DStrike%2BDeferred%2BCommunication%2B28092026%2B%26utm_medium%3DEmail%26utm_term%3DCampaign&fl=UUNCSBZeThZETxNNTFwXQExRUhcGClkWdjdaUAoKJFJdDglfeV9SWAVhMUFWBw==&ext="  target="_blank" title="" style="text-decoration: none;"><img class="icon" 
+src="https://d1l8l3rp33cdzs.cloudfront.net/images/unionbankofindiacee/editor_images/c21fc2b1-6c3d-4a55-9a8a-d77c59fb11ff.png" alt="youtube" height="auto" width="203.0344827586207" align="center" style="display:block;height:auto;margin:0 auto;border:0">
+</a></td></tr></table></td></tr></table></td></tr></table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><!-- End --><br/><div><p style='font-size: 12px;line-height: normal;font-family: arial;text-align: center;' >--<br><a href="https://elink.ubi.bank.in/vtrack?clientid=177515&ul=
+CAMOCFRRVEUCRBQRVF4NUFECBQpRS0J5UQ9VUAlKBVxeGRpFAU0H&ml=CwAADlVUUEUDRFVRAgVXSA==&sl=e0tjRCwqHWp+bBgGWVoMXxdGVVBLB1VXXUxdVxlUGgNPVQ==&pp=0&ga=utm_source%3DNetcore%26utm_campaign%3DStrike%2BDeferred%2BCommunication%2B28092026%2B%26utm_medium%3DEmail%26utm_term%3DCampaign&fl=UUNCSF9LTklSVgEPVB0XWlBcWVsEC19WUAtaXQwFSFBcCElMXlhZXwZVC19bBFgPBQpUWwAGGQ==&ext=cD1zbXVuc3ViJm1pZD0yNzY2JnVpZD1bVU5JUUlEXSZ3dmlkPTAwMSZ1dGk9MA=="  >Click Here</a> to unsubscribe from this newsletter.<br><br></div></body></html>
+
+
+
+--b1_4606f0703773303e410311edf59a3941--

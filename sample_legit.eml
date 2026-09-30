@@ -1,0 +1,11 @@
+From: "HDFC Bank" <alerts@hdfcbank.net>
+To: customer@example.com
+Subject: Your monthly statement is ready
+Message-ID: <s1@hdfcbank.net>
+Date: Wed, 30 Sep 2026 08:00:00 +0530
+Authentication-Results: mx.example.com; spf=pass; dkim=pass; dmarc=pass
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+Hello, your statement for September is available. Please log in to the HDFC Bank NetBanking
+app to view it: https://www.hdfcbank.com/statements

@@ -1,0 +1,16 @@
+From: "HDFC Bank Alerts" <alerts@hdfcbank-kyc.top>
+Reply-To: support@hdfc-secure.xyz
+To: customer@example.com
+Subject: Urgent: Your KYC expired - account will be blocked today
+Message-ID: <kyc-1@hdfcbank-kyc.top>
+Date: Wed, 30 Sep 2026 09:15:00 +0530
+Authentication-Results: mx.example.com; spf=fail; dkim=none; dmarc=fail
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<html><body>
+<p>Dear customer, your HDFC net banking will be blocked. Please update your KYC and PAN card immediately.</p>
+<p>आपका खाता बंद हो जाएगा। तुरंत केवाईसी अपडेट करें।</p>
+<p>Update here: <a href="http://hdfcbank-kyc.top/login">https://www.hdfcbank.com/kyc</a></p>
+<p>To avoid a penalty pay Rs 10 to kyc.hdfc@okhdfcbank or call 98765 43210 now. Aapka khata band ho jayega.</p>
+</body></html>
