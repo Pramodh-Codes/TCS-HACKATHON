@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+playwright
+python-multipart
