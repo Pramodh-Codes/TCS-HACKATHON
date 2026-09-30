@@ -406,8 +406,10 @@ def analyze(path):
 
     items = sorted(f.items, key=lambda x: (-SEV_ORDER[x["severity"]], x["category"]))
     score = sum(SEV_SCORE[i["severity"]] for i in items)
-    verdict = ("likely malicious" if score >= 20 else
-               "suspicious" if score >= 8 else
+    verdict = ("Highly malicious" if score >= 75 else
+               "likely malicious" if score >= 50 else
+               "suspicious" if score >= 30 else
+               "potentially risky" if score >= 10 else
                "low risk" if score > 0 else "no indicators found")
     return {
         "file": path,

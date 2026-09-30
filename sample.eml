@@ -1,0 +1,11 @@
+From: "support@paypal.com" <alerts@secure-pay.xyz>
+Reply-To: hacker@gmail.com
+To: you@example.com
+Subject: URGENT: Verify your account
+Message-ID: <1@x>
+Date: Wed, 30 Sep 2026 10:00:00 +0000
+Authentication-Results: mx.example.com; spf=fail; dkim=none; dmarc=fail
+MIME-Version: 1.0
+Content-Type: text/html
+
+<html><body>Dear customer, click <a href="http://192.168.1.5/login">https://paypal.com/secure</a> to confirm your password.</body></html>
